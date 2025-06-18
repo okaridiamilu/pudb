@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.user-session {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-session span {
+  font-weight: bold;
+  color: #333;
+}
+
+.user-session a button {
+  background-color: #0055aa;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-session a button:hover {
+  background-color: #003d80;
+}
+
+#entrance {
+  text-align: center;
+  display: flex;
+  align-items: center; /* pour les aligner verticalement au centre */
+  justify-content: space-between; /* espace entre les deux */
+  padding-left: 18%;
+  padding-right: 18%;
+  height: auto;
+}
+
+#entrance img {
+  width: 45%;
+  height: auto;
+  padding-right: 18%;
+}
+
+
+#core {
+  display: flex;
+  flex-direction: column;      /* empile les éléments verticalement */
+}
+
+.UDBaccess {
+    display: flex;
+    align-items: center;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 20px 0;
+}
+
+
+.UDBaccess img {
+  width: 25%;
+  height: auto;
+  padding-right: 45%;
+}
+
+
+.UDBaccess button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+#theme-toggle {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    padding: 0.5rem 1rem;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    z-index: 300;
+    transition: background-color 0.5s;
+}
+
+/* --------------------
+    Mode sombre / clair
+--------------------- */
+body.light-mode {
+    background-color: beige;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: #2a2a2a;
+    color: #f1f1f1;
+}
+
+body.light-mode #collected {
+    background-color: beige;
+}
+
+body.dark-mode #collected {
+    background-color: #1a1a1a;
+}
+
+.post-container.light-mode {
+    background-color: antiquewhite;
+    color: rgb(21, 21, 40);
+    border-color: rgb(32, 32, 41);
+}
+
+.post-container.dark-mode {
+    background-color: #2a2a2a;
+    color: #f1f1f1;
+    border-color: #333;
+}
+
+body.light-mode header,
+body.light-mode #filters {
+  background-color: #f0f0f0;
+  color: #151528;
+  border-bottom: 1px solid #ccc;
+}
+
+body.dark-mode header,
+body.dark-mode #filters {
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+  border-bottom: 1px solid #eee;
+}
