@@ -1,3 +1,5 @@
+#ceci est la beta de l'algo de scraping. La version numéro deux est un second essaie, la version 3 est la version final
+
 import os
 import json
 import re
