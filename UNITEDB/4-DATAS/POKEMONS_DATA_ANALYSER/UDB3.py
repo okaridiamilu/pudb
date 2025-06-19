@@ -1,3 +1,5 @@
+#La version final de mon outil de scraping. avec des ajouts de data suplémentaire deja pensé pour des améliorations futurs
+
 import os
 import json
 import re
