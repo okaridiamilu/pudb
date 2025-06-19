@@ -1,3 +1,4 @@
+#ceci est une seconde version non fonctionelle. La version numéro un est le premier essaie, la version 3 est la version final
 import os
 import json
 import re
